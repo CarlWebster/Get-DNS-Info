@@ -1,0 +1,2 @@
+# GetDNSInfo
+Get DNS info
