@@ -1,17 +1,14 @@
 # GetDNSInfo
 Get DNS info
-	Gathers information on a network interface on specified computers in Microsoft Active 
-	Directory. The computer accounts processed are filtered by IPEnabled and DHCP Disabled.
-	Only computers using a Static IP Address are processed.
+	Gathers information on a network interface on specified computers in Microsoft Active Directory. The computer accounts processed are filtered by IPEnabled and DHCP Disabled. Only computers using a Static IP Address are 
+    processed.
 	
-	Creates one text file and one CSV file, by default, in the folder where the script is 
-	run.
+	Creates one text file and one CSV file, by default, in the folder where the script is run.
 	The CSV file is named DNSInfo.csv, and the other is named ComputerNames.txt.
 	
 	Optionally, can specify the output folder.
 	
-	Process each computer, gathering the following information to put in the DNSInfo.csv 
-	file:
+	Process each computer, gathering the following information to put in the DNSInfo.csv file:
 		DNSHostName
 		InterfaceName
 		MACAddress
@@ -21,8 +18,7 @@ Get DNS info
 		DNSServerSearchOrder
 		DNSDomainSuffixSearchOrder
 
-	The ComputerNames.txt file contains the DNSHostName of the computers that were 
-	processed. 
+	The ComputerNames.txt file contains the DNSHostName of the computers that were processed. 
 	
 	The user running the script must be a member of the Domain Admins group.
 	
